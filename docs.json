@@ -8,6 +8,41 @@
     "dark": "#1b0d25"
   },
   "favicon": "/favicon.svg",
+  "logo": {
+    "light": "/logo/BOOM__01-LOGOTIPO_HORIZONTAL_CORAL.png",
+    "dark": "/logo/BOOM__01-LOGOTIPO_HORIZONTAL_CORAL.png"
+  },
+  "appearance": {
+    "default": "system",
+    "strict": false
+  },
+  "background": {
+    "light": "#fffff3",
+    "dark": "#1b0d25"
+  },
+  "navbar": {
+    "links": [
+      {
+        "href": "mailto:contato@suaboom.com.br",
+        "label": "Suporte"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Plataforma",
+      "href": "https://app.suaboom.com.br"
+    }
+  },
+  "footer": {
+    "socials": {
+      "linkedin": "https://linkedin.com/company/boom",
+      "instagram": "https://instagram.com/suaboom"
+    }
+  },
+  "contextual": {
+    "options": ["copy", "view", "chatgpt", "claude"],
+    "display": "header"
+  },
   "navigation": {
     "tabs": [
       {
@@ -15,18 +50,11 @@
         "groups": [
           {
             "group": "Bem-vindo",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
+            "pages": ["index", "quickstart", "development"]
           },
           {
             "group": "Cultura & Metodologia",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
+            "pages": ["essentials/settings", "essentials/navigation"]
           },
           {
             "group": "Conteúdo",
@@ -56,9 +84,7 @@
         "groups": [
           {
             "group": "Documentação da API",
-            "pages": [
-              "api-reference/introduction"
-            ]
+            "pages": ["api-reference/introduction"]
           },
           {
             "group": "Exemplos",
@@ -86,41 +112,5 @@
         }
       ]
     }
-  },
-  "logo": {
-    "light": "/logo/BOOM__01-LOGOTIPO_HORIZONTAL_CORAL.png",
-    "dark": "/logo/BOOM__01-LOGOTIPO_HORIZONTAL_CORAL.png"
-  },
-  "navbar": {
-    "links": [
-      {
-        "href": "mailto:contato@suaboom.com.br",
-        "label": "Suporte"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Plataforma",
-      "href": "https://app.suaboom.com.br"
-    }
-  },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-    "claude"
-  ]
-  },
-  "footer": {
-    "socials": {
-      "linkedin": "https://linkedin.com/company/boom",
-      "instagram": "https://instagram.com/suaboom"
-    }
-  },
-  "appearance": {
-    "default": "system",
-    "strict": false
-  },
-  "background": {}
+  }
 }
