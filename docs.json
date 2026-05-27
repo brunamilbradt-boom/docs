@@ -53,17 +53,32 @@
             "pages": ["index", "quickstart", "development"]
           },
           {
-            "group": "Cultura & Metodologia",
-            "pages": ["essentials/settings", "essentials/navigation"]
+            "group": "Metodologia",
+            "pages": [
+              "metodologia/tese-de-cultura",
+              "metodologia/convergencia-cultural",
+              "metodologia/cultura-vs-resultados",
+              "metodologia/cultura-vs-resultados-indicador",
+              "metodologia/defensores-e-ofensores",
+              "metodologia/engajamento",
+              "metodologia/gap-da-lideranca"
+            ]
           },
           {
-            "group": "Conteúdo",
+            "group": "GPS de Cultura",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/components",
-              "essentials/reusable-snippets"
+              "gps/faq-gps",
+              "gps/index-de-cultura-e-scores",
+              "gps/tracos"
+            ]
+          },
+          {
+            "group": "Módulos",
+            "pages": [
+              "modulos/visao-geral",
+              "modulos/modulo-01-parte-01",
+              "modulos/modulo-01-parte-02",
+              "modulos/modulo-01-parte-03"
             ]
           },
           {
