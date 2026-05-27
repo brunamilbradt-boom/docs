@@ -88,8 +88,8 @@
     }
   },
   "logo": {
-    "light": "/logo/BOOM__01-LOGOTIPO_HORIZONTAL_BEGE.jpg",
-    "dark": "/logo/BOOM__01-LOGOTIPO_HORIZONTAL_AMARELO.jpg"
+    "light": "/logo/BOOM__01-LOGOTIPO_HORIZONTAL_AMARELO.jpg",
+    "dark": "/logo/BOOM__01-LOGOTIPO_HORIZONTAL_BEGE.jpg"
   },
   "navbar": {
     "links": [
